@@ -21,10 +21,10 @@ nav {
   
 ul {
   list-style: none;
-  /* margin-left: 30%; */
+  margin-right: 5%;
 }
   
-li {
+ul li {
   display: inline-block;
 }
   
@@ -41,14 +41,13 @@ nav a {
   
 #title {
   font-size: 28px;
-  /* margin-right: 10%; */
 }
 
 .u-color {
   text-decoration: underline;
-  text-decoration-color: #b38a58;
+  text-decoration-color: #588157;
   height: 1px;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 4px;
 }
 
 /* Body */
@@ -66,24 +65,25 @@ nav a {
 .aff-img {
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 100%;
 }
 
 .aff-img img {
     width: 100%;
     height: 100%;
-    max-height: 400px;
+    /* max-height: 400px; */
     opacity: 0.7;
 }
 
 .aff-text {
     position: absolute;
-    top: 100px;
-    left: 30px;
+    top: 300px;
+    left: 10%;
     width: 600px;
     min-height: 150px;
     font-size: 200%;
-    color: white;
+    color: black;
+    /* background-color: black; */
 }
 
 .aligner-centre {
@@ -93,15 +93,30 @@ nav a {
 }
 
 .presentation {
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 2.5%;
+    box-shadow: 0px 2px 2px rgb(40, 38, 38);
+}
+.presentation h4 {font-size: 20px; color: #588157;}
+.presentation p {font-size: 18px;}
+
+.images {
+    width: 100%;
+    min-height: 200px;
+    /* margin: 2.5%; */
+    /* padding: 2.5%; */
+    display: flex;
 }
 
+.images img {
+    width: 50%;
+    height: 100%;
+}
 /* Footer */
 footer {
     position: absolute;
     /* bottom: 0; */
-    background-color: #b38a58;
+    background-color: #588157;
     width: 100%;
 }
 
@@ -132,6 +147,7 @@ footer input {
     border: none;
     opacity: 0.7;
     margin-left: 10%;
+    border-radius: 12px;
 }
 
 footer input:hover {
@@ -151,6 +167,7 @@ footer input:hover {
     margin-left: 10%;
     border-bottom: 1px solid black;
     transition: 2s;
+    border-radius: 12px;
 }
 
 #inscription-btn:hover {
